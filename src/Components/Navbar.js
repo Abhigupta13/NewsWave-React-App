@@ -4,7 +4,10 @@ export class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg bg-light" style={{color : 'white'}}>
+        <nav
+          className="navbar navbar-expand-lg bg-dark navbar-dark"
+          style={{ color: "white" }}
+        >
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
               NewsWave
@@ -46,7 +49,6 @@ export class Navbar extends Component {
                   </a>
                 </li>
               </ul>
-             
             </div>
           </div>
         </nav>

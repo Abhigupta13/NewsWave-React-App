@@ -1,0 +1,136 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [
+    {
+    "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Taylor Hatmaker",
+            "title": "The Justice Department is investigating TikTok over journalist spying incident",
+            "description": "The FBI and the DOJ are reportedly investigating how some ByteDance employees leveraged the app to spy on American journalists.",
+            "url": "https://techcrunch.com/2023/03/17/the-justice-department-is-investigating-tiktok-over-journalist-spying-incident/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/09/GettyImages-1187380995.jpg?resize=1200,800",
+            "publishedAt": "2023-03-18T03:32:19Z",
+            "content": "The Biden administration has recently ramped up pressure on TikTok over national security concerns stemming from its ties to China, and apparently the Justice Department and the FBI are also applying… [+1916 chars]"
+        },
+    {
+    "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Kirsten Korosec",
+            "title": "Pull Systems launches out of Up.Labs-Porsche partnership to tackle EV performance",
+            "description": "Pull Systems, the first startup borne out of a partnership with Up.Labs and Porsche made its public debut at SXSW 2023.",
+            "url": "https://techcrunch.com/2023/03/17/pull-systems-launches-out-of-up-labs-porsche-partnership-to-tackle-ev-performance/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/03/pull-porsche.jpg?resize=1200,800",
+            "publishedAt": "2023-03-17T23:53:57Z",
+            "content": "When Porsche partnered with venture studio Up.Labs, the mission was to create six startups over three years all designed to solve the German automaker’s biggest problems and be compelling enough as a… [+4435 chars]"
+        },
+    {
+    "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Devin Coldewey",
+            "title": "The Monarch could be the next big thing in Braille",
+            "description": "The newest and fanciest braille reader yet is the Monarch, a multipurpose device that uses the startup Dot's tactile display technology.",
+            "url": "https://techcrunch.com/2023/03/17/the-monarch-could-be-the-next-big-thing-in-braille/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/03/monarch-braille-2.jpg?resize=1200,796",
+            "publishedAt": "2023-03-17T21:51:42Z",
+            "content": "For many people around the world, braille is their primary language for reading books and articles, and digital braille readers are an important part of that. The newest and fanciest yet is the Monar… [+3532 chars]"
+        },
+    {
+    "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Christine Hall",
+            "title": "Daily Crunch: With just $2.2B in remaining liquidity, SVB’s parent company files for bankruptcy",
+            "description": "Hello, friends, and welcome to Daily Crunch, bringing you the most important startup, tech and venture capital news in a single package.",
+            "url": "https://techcrunch.com/2023/03/17/daily-crunch-with-just-2-2b-in-remaining-liquidity-svbs-parent-company-files-for-bankruptcy/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1472616136.jpg?resize=1200,813",
+            "publishedAt": "2023-03-17T20:38:36Z",
+            "content": "To get a roundup of TechCrunchs biggest and most important stories delivered to your inbox every day at 3 p.m. PDT, subscribe here.\r\nHappy Friday Crunch!\r\nTheres a persistent theory in hardware that … [+3899 chars]"
+        },
+    {
+    "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Harri Weber",
+            "title": "Rawr? Green Li-ion recharges with $20.5M to scale its recycling tech",
+            "description": "Green Li-ion's battery recycling machines are the \"size of a small house,\" so it's no wonder the Singaporean climate startup needed a top-up.",
+            "url": "https://techcrunch.com/2023/03/17/rawr-green-li-ion-recharges-with-20-5m-to-scale-its-recycling-tech/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1245872932.jpg?resize=1200,800",
+            "publishedAt": "2023-03-17T18:20:48Z",
+            "content": "Green Li-ion says its battery recycling machines are the “size of a small house,” so it’s no wonder the Singapore-based startup needed to top up on funds. It’d only raised about $15 million ahead of … [+1638 chars]"
+        },
+    {
+    "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Natasha Lomas",
+            "title": "Glaze protects art from prying AIs",
+            "description": "An academic research project has launched a free 'cloaking' tool for visual artists to protect online artworks against style-ripping generative AI models.",
+            "url": "https://techcrunch.com/2023/03/17/glaze-generative-ai-art-style-mimicry-protection/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/03/142668849_23281aa984_k.jpg?resize=1200,921",
+            "publishedAt": "2023-03-17T18:15:35Z",
+            "content": "The asymmetry in time and effort it takes human artists to produce original art vs the speed generative AI models can now get the task done is one of the reasons why Glaze, an academic research proje… [+25474 chars]"
+        },
+    {
+    "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Connie Loizos",
+            "title": "A $500 million term sheet in 12 hours: how Rippling struck a deal as SVB was melting down",
+            "description": "One week later, CEO Parker Conrad suggests he’s still processing it all, saying there wasn’t really time to panic; there was too much to do.",
+            "url": "https://techcrunch.com/2023/03/17/a-500-million-term-sheet-in-12-hours-how-rippling-struck-a-deal-as-svb-was-melting-down/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-826.jpg?resize=1200,800",
+            "publishedAt": "2023-03-17T17:31:53Z",
+            "content": "As a serial entrepreneur who has famously endured some ups and downs, Parker Conrad he has nearly seen it all. Or so he might have thought until last week. Certainly, he never imagined a run on Silic… [+10038 chars]"
+        },
+    {
+    "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Kirsten Korosec",
+            "title": "Strangeworks might be the first startup to rely on AI to create everything it brought to SXSW",
+            "description": "Strangeworks CEO whurley used generative AI to create his speech, slides and graphics for a speech at SXSW. Here's how and why.",
+            "url": "https://techcrunch.com/2023/03/17/strangeworks-might-be-the-first-startup-to-rely-on-ai-to-create-everything-it-brought-to-sxsw/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/03/strangeworks-ceo.jpg?resize=1200,900",
+            "publishedAt": "2023-03-17T17:20:57Z",
+            "content": "It’s a very modern conjurer’s trick: Create an SXSW talk out of thin air, with the help of generative AI. That’s what whurley did this year in Austin.\r\nIt took nine weeks for whurley a staple of the … [+5480 chars]"
+        },
+    {
+    "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Harri Weber",
+            "title": "Elemental aims to pump $43M into climate startups with ‘deep community impact’",
+            "description": "Elemental, a nonprofit investor in startups such as BlocPower and ChargerHelp, aims to invest $43 million more into climate tech.",
+            "url": "https://techcrunch.com/2023/03/17/elemental-aims-to-pump-43m-into-climate-startups-with-deep-community-impact/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1335932747.jpg?w=1200",
+            "publishedAt": "2023-03-17T16:17:23Z",
+            "content": "ElementalExcelerator, a nonprofit investor in climate-tech startups including BlocPower and ChargerHelp, says it’s “doubling down” in the wake of Silicon Valley Bank‘s collapse.\r\nElemental intends to… [+1733 chars]"
+        },
+    {
+    "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Walter Thompson",
+            "title": "TechCrunch+ roundup: 7 VCs who are taking pitches, AI best practices, zero-based budgeting",
+            "description": "With SVB’s contagion contained, the VC community seems open to writing smallish checks for pre-revenue startups.",
+            "url": "https://techcrunch.com/2023/03/17/techcrunch-roundup-7-vcs-who-are-taking-pitches-ai-best-practices-zero-based-budgeting/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1432923096.jpg?resize=1200,674",
+            "publishedAt": "2023-03-17T16:12:59Z",
+            "content": "Its too early to determine whether SVBs downfall heralds a new era for venture capital, but based on anecdotal evidence, off-the-record discussions and chats with co-workers, it seems like were back … [+5902 chars]"
+        }
+    ]
+}
