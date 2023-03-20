@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import NewsItem from "./NewsItem";
 import Spinner from "./Spinner";
 import PropTypes from "prop-types";
-import loading from './loading.gif'
 
 export default class News extends Component {
   static defaultProps = {
@@ -84,10 +83,10 @@ export default class News extends Component {
               return (
                 <div className="col-lg-4 col-md-6 my-2" key={element.url}>
                   <NewsItem
-                    title={element.title ? element.title.slice(0, 45) : ""}
+                    title={element.title ? element.title: ""}
                     description={
                       element.description
-                        ? element.description.slice(0, 90)
+                        ? element.description
                         : ""
                     }
                     imageUrl={
@@ -95,8 +94,9 @@ export default class News extends Component {
                         ? element.urlToImage
                         : "https://www.shutterstock.com/image-vector/vector-progress-loading-bar-icon-260nw-1705895869.jpg"
                     }
-                    newsUrl={element.url}
+                    newsUrl={element.url} date={element.publishedAt} auther={element.author} source={element.source.name}
                   />
+                 
                 </div>
               );
             })}
