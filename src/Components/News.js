@@ -19,7 +19,6 @@ export default class News extends Component {
 
   constructor() {
     super();
-    console.log("this is a constructer from news component");
     this.state = {
       articles: [],
       loading: false,
@@ -41,8 +40,7 @@ export default class News extends Component {
   
   async componentDidMount(){
     this.updateNews();
-    console.log(this.state.page);
-  }
+    }
   handlePrevbtn = async() => {
     this.setState({page: this.state.page - 1});
     this.updateNews();
