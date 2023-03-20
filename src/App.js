@@ -12,6 +12,7 @@ import {
 export default class App extends Component {
   pageSize =9;
   country ='in'
+  apiKey ='2fcb4cc6c1f04d81bca7edcadd2c27fe'
   render() {
     
     return (
@@ -19,14 +20,14 @@ export default class App extends Component {
       <Router>
     <Navbar/>
     <Routes>
- <Route exact path="/*" element={<News pageSize={this.pageSize} category={'business'} country={this.country} apiKey={'82ae958c9b30440092247a9cd93500b7'}/>}/>
- <Route exact path="/business" element={<News pageSize={this.pageSize} category={'business'} country={this.country} apiKey={'82ae958c9b30440092247a9cd93500b7'}/>}/>
- <Route exact path="/entertainment" element={<News pageSize={this.pageSize} category={'entertainment'} country={this.country} apiKey={'82ae958c9b30440092247a9cd93500b7'}/>}/>
- <Route exact path="/general" element={<News pageSize={this.pageSize} category={'general'} country={this.country} apiKey={'82ae958c9b30440092247a9cd93500b7'}/>}/>
- <Route exact path="/health" element={<News pageSize={this.pageSize} category={'health'} country={this.country} apiKey={'82ae958c9b30440092247a9cd93500b7'}/>}/>
- <Route exact path="/science" element={<News pageSize={this.pageSize} category={'science'} country={this.country} apiKey={'82ae958c9b30440092247a9cd93500b7'}/>}/>
- <Route exact path="/sports" element={<News pageSize={this.pageSize} category={'sports'} country={this.country} apiKey={'82ae958c9b30440092247a9cd93500b7'}/>}/>
- <Route exact path="/technology" element={<News pageSize={this.pageSize} category={'technology'} country={this.country} apiKey={'82ae958c9b30440092247a9cd93500b7'}/>}/>
+ <Route exact path="/*" element={<News pageSize={this.pageSize} category={'business'} country={this.country} apiKey={this.apiKey}/>}/>
+ <Route exact path="/business" element={<News pageSize={this.pageSize} category={'business'} country={this.country} apiKey={this.apiKey}/>}/>
+ <Route exact path="/entertainment" element={<News pageSize={this.pageSize} category={'entertainment'} country={this.country} apiKey={this.apiKey}/>}/>
+ <Route exact path="/general" element={<News pageSize={this.pageSize} category={'general'} country={this.country} apiKey={this.apiKey}/>}/>
+ <Route exact path="/health" element={<News pageSize={this.pageSize} category={'health'} country={this.country} apiKey={this.apiKey}/>}/>
+ <Route exact path="/science" element={<News pageSize={this.pageSize} category={'science'} country={this.country} apiKey={this.apiKey}/>}/>
+ <Route exact path="/sports" element={<News pageSize={this.pageSize} category={'sports'} country={this.country} apiKey={this.apiKey}/>}/>
+ <Route exact path="/technology" element={<News pageSize={this.pageSize} category={'technology'} country={this.country} apiKey={this.apiKey}/>}/>
  </Routes>
 
       </Router>
