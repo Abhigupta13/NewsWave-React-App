@@ -16,14 +16,18 @@ export default class News extends Component {
     category: PropTypes.string,
     apiKey: PropTypes.string,
   };
+  capitalizeFirstLetter=(string)=>{
+    return string.charAt(0).toUpperCase()+string.slice(1);
+  }
 
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       articles: [],
       loading: false,
       page: 1,
     };
+    document.title =`${this.capitalizeFirstLetter(this.props.category)} - NewsWave`
   }
 
   async updateNews(){
@@ -52,7 +56,7 @@ export default class News extends Component {
   render() {
     return (
       <div className="container">
-        <h1 className="text-center my-2">NewsWave - Top Headlines</h1>
+        <h1 className="text-center my-2">NewsWave - Top <i>from</i> <u>{this.capitalizeFirstLetter(this.props.category)}</u>  Headlines</h1>
         {this.state.loading && <Spinner />}
         <div className="row justify-content-center mt-3">
           {!this.state.loading &&
@@ -70,7 +74,7 @@ export default class News extends Component {
                     imageUrl={
                       element.urlToImage
                         ? element.urlToImage
-                        : "https://www.shutterstock.com/image-vector/vector-progress-loading-bar-icon-260nw-1705895869.jpg"
+                        : "https://media1.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"
                     }
                     newsUrl={element.url} date={element.publishedAt} auther={element.author} source={element.source.name}
                   />
