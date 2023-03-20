@@ -27,9 +27,8 @@ export default class News extends Component {
     };
   }
 
-  async componentDidMount() {
-    console.log("cdm");
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=1&pageSize=${this.props.pageSize}`;
+  async updateNews(){
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({ loading: true });
     let data = await fetch(url);
     let parseData = await data.json();
@@ -39,37 +38,18 @@ export default class News extends Component {
       loading: false,
     });
   }
-  handlePrevbtn = async () => {
-    console.log("previous");
-    let url = `https://newsapi.org/v2/top-headlines?country=${
-      this.props.country
-    }&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${
-      this.state.page - 1
-    }&pageSize=${this.props.pageSize}`;
-    this.setState({ loading: true });
-    let data = await fetch(url);
-    let parseData = await data.json();
-    this.setState({
-      articles: parseData.articles,
-      page: this.state.page - 1,
-      loading: false,
-    });
+  
+  async componentDidMount(){
+    this.updateNews();
+    console.log(this.state.page);
+  }
+  handlePrevbtn = async() => {
+    this.setState({page: this.state.page - 1});
+    this.updateNews();
   };
-  handleNextbtn = async () => {
-    console.log("Next");
-    let url = `https://newsapi.org/v2/top-headlines?country=${
-      this.props.country
-    }&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${
-      this.state.page + 1
-    }&pageSize=${this.props.pageSize}`;
-    this.setState({ loading: true });
-    let data = await fetch(url);
-    let parseData = await data.json();
-    this.setState({
-      articles: parseData.articles,
-      page: this.state.page + 1,
-      loading: false,
-    });
+  handleNextbtn = async() => {
+    this.setState({page: this.state.page + 1});
+    this.updateNews();
   };
   render() {
     return (
@@ -100,24 +80,12 @@ export default class News extends Component {
                 </div>
               );
             })}
-          {/* <div className="col-lg-4 col-md-6 my-2"><NewsItem imageUrl="" title="myTitle" description="myDec" /></div>
-       <div className="col-lg-4 col-md-6 my-2"><NewsItem imageUrl="" title="myTitle" description="myDec" /></div>
-       <div className="col-lg-4 col-md-6 my-2"><NewsItem imageUrl="" title="myTitle" description="myDec" /></div>
-       <div className="col-lg-4 col-md-6 my-2"><NewsItem imageUrl="" title="myTitle" description="myDec" /></div>
-       <div className="col-lg-4 col-md-6 my-2"><NewsItem imageUrl="" title="myTitle" description="myDec" /></div> */}
         </div>
         <div className="container d-flex justify-content-between">
-          <button
-            disabled={this.state.page <= 1}
-            type="button"
-            className="btn btn-dark"
-            onClick={this.handlePrevbtn}
-          >
-            &larr; Previous
-          </button>
+          <button disabled={this.state.page <= 1} type="button" className="btn btn-dark" onClick={this.handlePrevbtn}>&larr; Previous</button>
           <button
             disabled={
-              this.state.page + 1 > Math.ceil(this.state.totalResults / 9)
+              this.state.page + 1 > Math.ceil(this.state.totalResults / this.props.pageSize)
             }
             type="button"
             className="btn btn-dark"
