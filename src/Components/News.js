@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 import InfiniteScroll from "react-infinite-scroll-component";
 
 
+
 export default class News extends Component {
   static defaultProps = {
     country: "in",
@@ -34,19 +35,27 @@ export default class News extends Component {
   }
 
   async updateNews(){
+    this.props.setProgress(10);
     let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({ loading: true });
     let data = await fetch(url);
+    this.props.setProgress(40);
     let parseData = await data.json();
+    this.props.setProgress(70);
     this.setState({
       articles: parseData.articles,
       totalResults: parseData.totalResults,
       loading: false,
     });
+    this.props.setProgress(100);
+
   }
   
   async componentDidMount(){
     this.updateNews();
+    this.setState({
+      page: this.state.page + 1
+    })
     }
   handlePrevbtn = async() => {
     this.setState({page: this.state.page - 1});
@@ -56,8 +65,11 @@ export default class News extends Component {
     this.setState({page: this.state.page + 1});
     this.updateNews();
   };
+  
   fetchMoreData = async() => {
-    this.setState({page: this.state.page + 1})
+    this.setState({
+      page: this.state.page + 1
+    })
     let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     let data = await fetch(url);
     let parseData = await data.json();
@@ -79,7 +91,7 @@ topFunction=()=> {
         <InfiniteScroll
           dataLength={this.state.articles.length}
           next={this.fetchMoreData}
-          hasMore={this.state.articles.length <= this.state.totalResults}
+          hasMore={this.state.articles.length !== this.state.totalResults}
           
           loader={<Spinner/>}
         >
