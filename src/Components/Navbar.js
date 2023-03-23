@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
-export class Navbar extends Component {
-  render() {
+const Navbar=()=>{
+  
     return (
       <div>
         <nav
-          className="navbar navbar-expand-lg bg-dark navbar-dark"
+          className="navbar fixed-top navbar-expand-lg bg-dark navbar-dark mt-1"
           style={{ color: "white" }}
         >
           <div className="container-fluid">
@@ -41,7 +41,6 @@ export class Navbar extends Component {
         </nav>
       </div>
     );
-  }
 }
 
 export default Navbar;
