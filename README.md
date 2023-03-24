@@ -1,3 +1,12 @@
+# Hii Developers
+
+I have created a News app using React js named NewWave.
+If you go through the recent commits you can see that firstly i create this app using class based react component then after i changed it into function based react component which gives me much knowledge about the concepts.
+for this project I'm using api from Newsapi.org which is free for developers 
+so we can only see the news on local Host and working of the App.
+If you want to see this project working download the code and run in your pc in local Host using npm start
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
