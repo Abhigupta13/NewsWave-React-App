@@ -6,7 +6,7 @@ for this project I'm using api from Newsapi.org which is free for developers
 so we can only see the news on local Host and working of the App.
 If you want to see this project working download the code and run in your pc in local Host using npm start
 
-## Here are Some ScreenShots of thi Newswave React App
+## Here are Some Screenshots of this Newswave React App
 ![Screenshot 2023-06-04 214816](https://github.com/Abhigupta13/NewsWave-React-App/assets/100848632/3f86dc95-76ac-4e5d-8691-ed3d2e3979bc)
 
 ![Screenshot 2023-06-04 214827](https://github.com/Abhigupta13/NewsWave-React-App/assets/100848632/7d7da3a6-cd6d-43f1-9f4f-3f333c796add)
