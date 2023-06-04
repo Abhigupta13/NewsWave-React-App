@@ -6,6 +6,18 @@ for this project I'm using api from Newsapi.org which is free for developers
 so we can only see the news on local Host and working of the App.
 If you want to see this project working download the code and run in your pc in local Host using npm start
 
+## Here are Some ScreenShots of thi Newswave React App
+![Screenshot 2023-06-04 214816](https://github.com/Abhigupta13/NewsWave-React-App/assets/100848632/3f86dc95-76ac-4e5d-8691-ed3d2e3979bc)
+
+![Screenshot 2023-06-04 214827](https://github.com/Abhigupta13/NewsWave-React-App/assets/100848632/7d7da3a6-cd6d-43f1-9f4f-3f333c796add)
+
+![Screenshot 2023-06-04 214838](https://github.com/Abhigupta13/NewsWave-React-App/assets/100848632/95b1246a-323a-40bf-a4db-0085c2a9a26b)
+
+![Screenshot 2023-06-04 214845](https://github.com/Abhigupta13/NewsWave-React-App/assets/100848632/0b59f4a5-fe77-46dd-9d64-5f1eb9a5582e)
+
+![Sports - NewsWave - Brave 04-06-2023 21_49_00](https://github.com/Abhigupta13/NewsWave-React-App/assets/100848632/e100da78-22ae-4702-afc2-d3eb016755eb)
+
+![Sports - NewsWave - Brave 04-06-2023 21_49_15](https://github.com/Abhigupta13/NewsWave-React-App/assets/100848632/bdb4a2c3-aad5-4480-986a-88d35ce9c0b4)
 
 # Getting Started with Create React App
 
